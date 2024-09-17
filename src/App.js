@@ -16,7 +16,7 @@ function App() {
   const [data,setTemp]=useState(30.3);
   const [text,setText]=useState("");
   const [src,setSrc]=useState("");
-  
+  apiKey="0880550ab7a7495681563218241509";
 const change=()=>
 {
   let name=document.getElementById("text").value
@@ -31,7 +31,7 @@ const change=()=>
 }
 const wetherData=async()=>
 {
-let p= await fetch(`http://api.weatherapi.com/v1/current.json?key=0880550ab7a7495681563218241509&q=${city}&aqi=no`);
+let p= await fetch(`http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=no`);
 let d=await p.json();
 try{
 console.log(d);
