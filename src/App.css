@@ -1,0 +1,59 @@
+
+body{
+    background-image:url(./blue.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align:center
+}
+.container{
+    max-width: 400px;
+    margin:auto;
+    margin-top:100px;
+    border-radius:20px;
+    border:2px solid pink;
+}
+.date_conatiner{
+    color:white;
+    font-size: large;
+    opacity: 60%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 50;
+    padding:20px 0px 0px;
+}
+.city_conatiner{
+    color:white;
+}
+.wether{
+    width:380px;
+    height:200px;
+    color:white;
+}
+.textbox{
+    padding:30px;
+}
+#celcius{
+    font-size: larger;
+    font-weight: 200;
+}
+#des{
+    margin-top:5px;
+    font-size: larger;
+    font-weight: 300;
+}
+#text{
+    height:20px;
+    border-radius: 6px;
+    border:1px solid white;
+    outline:none;
+    color:white;
+    background:transparent;
+}
+#button{
+    height:23px;
+    border-radius: 6px;
+    color:white;
+    border:1px solid white;
+    outline:none;
+    background:transparent;
+}
